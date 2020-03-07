@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context="com.simcoder.mbstu.MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+
+        android:layout_marginTop="280dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Driver"
+        android:background="#99e9de"
+        android:textSize="20dp"
+        android:id="@+id/driver"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Student"
+        android:background="#85bce2"
+        android:id="@+id/customer"/>
+
+</LinearLayout>
+
